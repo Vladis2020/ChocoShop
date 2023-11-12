@@ -1,0 +1,124 @@
+body {
+	color: #330000;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url('obrazky/pozadie.jpg');
+	margin: 0;
+}
+header {
+	height: 102px;
+	text-align: right;
+}
+header h1 {
+	display: none;	
+}
+header img {
+	padding: 1%;	
+}
+nav {
+	color: #330000; /* v podstate nepodstatne */
+	background-color: rgb(255, 247, 224);
+	text-align: right;
+	padding: 0.5%;
+	border-top: #FF9999 double 3px;	
+	border-bottom: #FF9999 double 3px;	
+}
+nav a {
+	color: #330000;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 0 1em;
+}
+nav a:hover {
+	color: rgb(255, 247, 224);
+	background-color: #330000;
+}
+aside {
+	background-color: rgba(255, 247, 224, 0.5);
+	padding: 1%;	
+	font-weight: bold;
+	font-size: 120%;
+	margin: 2%;
+	border: 1px solid #FFCCCC;
+}
+aside img {
+	float: right;
+}
+section {
+	border-top: #FF9999 double 3px;
+	/* background-color: rgb(255, 247, 224); */
+	background-image: url('obrazky/pozadie1.jpg');
+	padding: 1%;	
+}
+section h1 {
+	border-left: 10px solid #330000;
+	padding-left: 1em;
+	border-bottom: 1px solid #330000;
+}
+section h2 {
+	color: #FF9999;
+	clear: both;
+}
+section a {
+	color: #FF9999;
+	font-weight: bold;
+}
+section table th {
+	text-align: center;
+	font-weight: bold;
+}
+section figure {
+	margin: 0 1em 1em 1em;
+	text-align: center;
+	float:  left;
+}
+section figcaption {
+	font-weight: bold;
+}
+footer {
+	background-color: rgba(255, 247, 224, 0.5);
+	border-top: #FF9999 double 3px;
+	text-align: center;
+	font-size: 80%;
+	padding: 0.5%;
+	clear: both;
+}
+fieldset {
+	border: 1px solid #330000;
+	padding: 0.5em;
+	margin: 0.5em;
+}
+legend {
+	background-color: #330000;
+	color: rgb(255, 247, 224);
+	font-weight: bold;
+	padding: 0 0.5em;
+}
+#posledny {
+	clear: both;
+}
+figure p {
+	clear: both;
+	margin: 0;
+}
+.chyba {
+	color: #FF0000;
+}
+.ok {
+	color: #0000FF;
+}
+
+/* added */
+#products {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.nophoto {
+	width: 130px;
+	height: 130px;
+	box-sizing: border-box;
+	outline: 3px solid white;
+	border: 2px solid purple;
+	background-color: rgb(253, 203, 202);
+	text-align: center;
+	display: inline-block;
+}
